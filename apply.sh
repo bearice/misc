@@ -5,4 +5,8 @@ mv ~/.zshrc ~/.zshrc.bak
 ln vimrc ~/.vimrc 
 ln zshrc ~/.zshrc 
 #ln ~/.oh-my-zsh oh-my-zsh
+cd ~/.oh-my-zsh
+git remote add myfork git@github.com:bearice/oh-my-zsh.git 
+git pull myfork master
+
 
