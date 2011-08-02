@@ -38,3 +38,4 @@ set cursorline
 let g:netrw_winsize = 30
 nmap <silent> <leader>fe :Sexplore!<cr> 
 
+set enc=utf-8
