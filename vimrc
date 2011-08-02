@@ -32,9 +32,45 @@ set clipboard=unnamed
 set copyindent      " copy the previous indentation on autoindenting
 set ignorecase      " ignore case when searching
 set smartcase       " ignore case if search pattern is all lowercase,case-sensitive otherwise
+set incsearch
 set smarttab        " insert tabs on the start of a line according to context
 set cursorline
 
 let g:netrw_winsize = 30
 nmap <silent> <leader>fe :Sexplore!<cr> 
+
+" tab completion
+set wildmode=list:longest,list:full
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
+
+" make cursor move by visual lines instead of file lines (when wrapping)
+map k gk
+map j gj
+map E ge
+
+" force hjkl
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+nnoremap ; :
+" new split
+nnoremap <leader>s<space> <C-w>v<C-w>l
+nnoremap <leader>vs <C-w><C-v>
+nnoremap <leader>hs <C-w><C-s>
+
+" copy to clipboard
+vmap <leader>y "+y
+" copy current line to clipboard
+nmap <leader>Y "+yy
+" paste from clipboard
+nmap <leader>p "+gP
+
+
+hi CursorLine cterm=NONE ctermbg=black
 
