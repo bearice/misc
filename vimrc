@@ -48,16 +48,6 @@ map k gk
 map j gj
 map E ge
 
-" force hjkl
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
-
 nnoremap ; :
 " new split
 nnoremap <leader>s<space> <C-w>v<C-w>l
