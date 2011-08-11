@@ -26,7 +26,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
+export PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
 
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
