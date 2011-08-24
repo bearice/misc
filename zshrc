@@ -31,5 +31,5 @@ export PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
 
-source $HOME/.zshrc.local
+test -f $HOME/.zshrc.local && source $HOME/.zshrc.local
 
