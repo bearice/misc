@@ -41,6 +41,8 @@ set autochdir
 let g:netrw_winsize = 30
 nmap <silent> <leader>fe :Sexplore!<cr> 
 
+set enc=utf-8
+
 " tab completion
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
