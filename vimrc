@@ -36,6 +36,8 @@ set incsearch
 set smarttab        " insert tabs on the start of a line according to context
 set cursorline
 
+set autochdir
+
 let g:netrw_winsize = 30
 nmap <silent> <leader>fe :Sexplore!<cr> 
 
@@ -63,4 +65,6 @@ nmap <leader>p "+gP
 
 
 hi CursorLine cterm=NONE ctermbg=black
+
+autocmd FileType make set noexpandtab
 
