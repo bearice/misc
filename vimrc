@@ -70,3 +70,7 @@ hi CursorLine cterm=NONE ctermbg=black
 
 autocmd FileType make set noexpandtab
 
+let _RC_LOCAL=expand("~/.vimrc.local")
+if filereadable(_RC_LOCAL) 
+    exe "source " . _RC_LOCAL
+endif
