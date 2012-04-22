@@ -27,6 +27,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
+export PATH=/sbin:/usr/sbin:/usr/local/sbin:$PATH
 
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
