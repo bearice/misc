@@ -26,10 +26,12 @@ plugins=(git brew lol osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:$HOME/zsh/bin:$HOME/vim/bin:$PATH
+export PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
 
+export HISTSIZE=1000000
 test -f $HOME/.zshrc.local && source $HOME/.zshrc.local
 
