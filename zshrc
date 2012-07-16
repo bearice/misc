@@ -21,12 +21,12 @@ export ZSH_THEME="myblinks"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git brew lol osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$HOME/zsh/bin/:$HOME/vim/bin:$PATH
+export PATH=/usr/local/bin:$HOME/zsh/bin:$HOME/vim/bin:$PATH
 
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line

@@ -38,6 +38,7 @@ set cursorline
 
 set autochdir
 
+set directory=/var/tmp
 let g:netrw_winsize = 30
 nmap <silent> <leader>fe :Sexplore!<cr> 
 
