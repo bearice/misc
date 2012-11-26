@@ -34,6 +34,7 @@ set ignorecase      " ignore case when searching
 set smartcase       " ignore case if search pattern is all lowercase,case-sensitive otherwise
 set incsearch
 set smarttab        " insert tabs on the start of a line according to context
+set cursorcolumn
 set cursorline
 
 set autochdir
@@ -65,7 +66,6 @@ vmap <leader>y "+y
 nmap <leader>Y "+yy
 " paste from clipboard
 nmap <leader>p "+gP
-
 
 hi CursorLine cterm=NONE ctermbg=black
 

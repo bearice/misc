@@ -32,6 +32,7 @@ export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
 
-export HISTSIZE=1000000
+export HISTSIZE=2000000
+export SAVEHIST=100000
 test -f $HOME/.zshrc.local && source $HOME/.zshrc.local
 
