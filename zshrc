@@ -21,7 +21,7 @@ export ZSH_THEME="myblinks"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew lol osx)
+plugins=(git brew lol osx safe-paste)
 
 source $ZSH/oh-my-zsh.sh
 
