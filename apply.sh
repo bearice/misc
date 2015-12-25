@@ -8,5 +8,5 @@ ln -s $PWD/zshrc ~/.zshrc
 cd ~/.oh-my-zsh
 git remote add myfork git@github.com:bearice/oh-my-zsh.git 
 git pull myfork master
-
+#jmCodeShouldNotBeExposedService this is a test
 
